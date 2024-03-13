@@ -1,0 +1,7 @@
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\bin\Debug\SSR_Laborator1_Exercitiul2.exe.config
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\bin\Debug\SSR_Laborator1_Exercitiul2.exe
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\bin\Debug\SSR_Laborator1_Exercitiul2.pdb
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\obj\Debug\SSR_Laborator1_Exercitiul2.csproj.AssemblyReference.cache
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\obj\Debug\SSR_Laborator1_Exercitiul2.csproj.CoreCompileInputs.cache
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\obj\Debug\SSR_Laborator1_Exercitiul2.exe
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator1\SSR_Laborator1_Exercitiul2\obj\Debug\SSR_Laborator1_Exercitiul2.pdb

@@ -1,0 +1,10 @@
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\bin\Debug\SSR_Laborator2_Exercitiul2.exe.config
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\bin\Debug\SSR_Laborator2_Exercitiul2.exe
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\bin\Debug\SSR_Laborator2_Exercitiul2.pdb
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.csproj.AssemblyReference.cache
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.Form1.resources
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.Properties.Resources.resources
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.csproj.GenerateResource.cache
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.csproj.CoreCompileInputs.cache
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.exe
+C:\Users\sasar\Desktop\UTCN\II Informatica Industriala\Laborator2\SSR_Laborator2_Exercitiul2\obj\Debug\SSR_Laborator2_Exercitiul2.pdb
