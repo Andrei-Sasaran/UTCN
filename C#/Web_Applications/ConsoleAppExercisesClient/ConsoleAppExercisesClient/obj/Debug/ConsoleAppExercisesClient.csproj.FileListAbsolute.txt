@@ -1,0 +1,7 @@
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\bin\Debug\ConsoleAppExercisesClient.exe.config
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\bin\Debug\ConsoleAppExercisesClient.exe
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\bin\Debug\ConsoleAppExercisesClient.pdb
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\obj\Debug\ConsoleAppExercisesClient.csproj.AssemblyReference.cache
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\obj\Debug\ConsoleAppExercisesClient.csproj.CoreCompileInputs.cache
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\obj\Debug\ConsoleAppExercisesClient.exe
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\ConsoleAppExercisesClient\ConsoleAppExercisesClient\obj\Debug\ConsoleAppExercisesClient.pdb

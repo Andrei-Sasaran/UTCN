@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://localhost:44319/ws_MyService.asmx?wsdl" docRef="https://localhost:44319/ws_MyService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://localhost:44319/ws_MyService.asmx" xmlns:q1="Web Services" binding="q1:My_x005F_x0020_fisrt_x005F_x0020_Web_x005F_x0020_ServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://localhost:44319/ws_MyService.asmx" xmlns:q2="Web Services" binding="q2:My_x005F_x0020_fisrt_x005F_x0020_Web_x005F_x0020_ServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
