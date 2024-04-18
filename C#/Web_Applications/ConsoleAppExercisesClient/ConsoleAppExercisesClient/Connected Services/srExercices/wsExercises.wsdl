@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertFC">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="fahrenheit" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertFCResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertFCResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertCF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="celsius" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertCFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertCFResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DateTimeNow">
+        <s:complexType />
+      </s:element>
+      <s:element name="DateTimeNowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DateTimeNowResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Build5ItemList">
+        <s:complexType />
+      </s:element>
+      <s:element name="Build5ItemListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Build5ItemListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConvertEuroToRon">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="e" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertEuroToRonResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertEuroToRonResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertRontoEuro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="r" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertRontoEuroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ConvertRontoEuroResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertFCSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertFC" />
+  </wsdl:message>
+  <wsdl:message name="ConvertFCSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertFCResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertCFSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertCF" />
+  </wsdl:message>
+  <wsdl:message name="ConvertCFSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertCFResponse" />
+  </wsdl:message>
+  <wsdl:message name="DateTimeNowSoapIn">
+    <wsdl:part name="parameters" element="tns:DateTimeNow" />
+  </wsdl:message>
+  <wsdl:message name="DateTimeNowSoapOut">
+    <wsdl:part name="parameters" element="tns:DateTimeNowResponse" />
+  </wsdl:message>
+  <wsdl:message name="Build5ItemListSoapIn">
+    <wsdl:part name="parameters" element="tns:Build5ItemList" />
+  </wsdl:message>
+  <wsdl:message name="Build5ItemListSoapOut">
+    <wsdl:part name="parameters" element="tns:Build5ItemListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertEuroToRonSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertEuroToRon" />
+  </wsdl:message>
+  <wsdl:message name="ConvertEuroToRonSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertEuroToRonResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertRontoEuroSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertRontoEuro" />
+  </wsdl:message>
+  <wsdl:message name="ConvertRontoEuroSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertRontoEuroResponse" />
+  </wsdl:message>
+  <wsdl:portType name="wsExercisesSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertFC">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method converts Fahrenheit to Celsius</wsdl:documentation>
+      <wsdl:input message="tns:ConvertFCSoapIn" />
+      <wsdl:output message="tns:ConvertFCSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertCF">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method converts Celsius to Fahrenheit</wsdl:documentation>
+      <wsdl:input message="tns:ConvertCFSoapIn" />
+      <wsdl:output message="tns:ConvertCFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DateTimeNow">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method returns the date and time</wsdl:documentation>
+      <wsdl:input message="tns:DateTimeNowSoapIn" />
+      <wsdl:output message="tns:DateTimeNowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Build5ItemList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method returns a list of 5 elements</wsdl:documentation>
+      <wsdl:input message="tns:Build5ItemListSoapIn" />
+      <wsdl:output message="tns:Build5ItemListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertEuroToRon">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method converts Euros to Ron</wsdl:documentation>
+      <wsdl:input message="tns:ConvertEuroToRonSoapIn" />
+      <wsdl:output message="tns:ConvertEuroToRonSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertRontoEuro">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">This method converts Ron to euro</wsdl:documentation>
+      <wsdl:input message="tns:ConvertRontoEuroSoapIn" />
+      <wsdl:output message="tns:ConvertRontoEuroSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsExercisesSoap" type="tns:wsExercisesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertFC">
+      <soap:operation soapAction="http://tempuri.org/ConvertFC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertCF">
+      <soap:operation soapAction="http://tempuri.org/ConvertCF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateTimeNow">
+      <soap:operation soapAction="http://tempuri.org/DateTimeNow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Build5ItemList">
+      <soap:operation soapAction="http://tempuri.org/Build5ItemList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertEuroToRon">
+      <soap:operation soapAction="http://tempuri.org/ConvertEuroToRon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertRontoEuro">
+      <soap:operation soapAction="http://tempuri.org/ConvertRontoEuro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsExercisesSoap12" type="tns:wsExercisesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertFC">
+      <soap12:operation soapAction="http://tempuri.org/ConvertFC" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertCF">
+      <soap12:operation soapAction="http://tempuri.org/ConvertCF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DateTimeNow">
+      <soap12:operation soapAction="http://tempuri.org/DateTimeNow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Build5ItemList">
+      <soap12:operation soapAction="http://tempuri.org/Build5ItemList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertEuroToRon">
+      <soap12:operation soapAction="http://tempuri.org/ConvertEuroToRon" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertRontoEuro">
+      <soap12:operation soapAction="http://tempuri.org/ConvertRontoEuro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsExercises">
+    <wsdl:port name="wsExercisesSoap" binding="tns:wsExercisesSoap">
+      <soap:address location="https://localhost:44319/wsExercises.asmx" />
+    </wsdl:port>
+    <wsdl:port name="wsExercisesSoap12" binding="tns:wsExercisesSoap12">
+      <soap12:address location="https://localhost:44319/wsExercises.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

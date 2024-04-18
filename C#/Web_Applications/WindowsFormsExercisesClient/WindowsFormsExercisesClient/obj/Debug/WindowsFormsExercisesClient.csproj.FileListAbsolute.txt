@@ -1,0 +1,10 @@
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\bin\Debug\WindowsFormsExercisesClient.exe
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\bin\Debug\WindowsFormsExercisesClient.exe.config
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.csproj.AssemblyReference.cache
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.Form1.resources
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.Properties.Resources.resources
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.csproj.GenerateResource.cache
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.csproj.CoreCompileInputs.cache
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.exe
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\obj\Debug\WindowsFormsExercisesClient.pdb
+C:\Users\sasar\Code\UTCN\C#\Web_Applications\WindowsFormsExercisesClient\WindowsFormsExercisesClient\bin\Debug\WindowsFormsExercisesClient.pdb
